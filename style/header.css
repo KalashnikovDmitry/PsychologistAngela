@@ -1,11 +1,11 @@
-.axit-header {
+.angela-header {
     background-color: black;
     padding: 20px 0;
     position: sticky;
     top: 0;
 }
 
-.axit-wrap {
+.angela-wrap {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap; 
@@ -21,8 +21,9 @@
 }
 
 .logo p:after {
-    content: 'it';
-    color: #EC7979;
+    content: 'angela';
+    color: #9e68e4;
+    font-size: 36px;
 }
 
 .menu-list {
@@ -55,7 +56,7 @@
 }
 
 .menu-list-item a:hover {
-    color: #EC7979;
+    color: #9e68e4;
     text-decoration: underline;
     text-underline-offset: 5px;
 }

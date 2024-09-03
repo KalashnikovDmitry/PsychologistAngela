@@ -1,22 +1,17 @@
 @import url('../style/cdn.css');
-@import url('../style/awesome.css');
-@import url('../style/options.css');
 @import url('../style/header.css');
-@import url('../style/axit-main.css');
-@import url('../style/customers.css');
-@import url('../style/axure.css');
+@import url('../style/angela-main.css');
 @import url('../style/social-media.css');
 @import url('../style/footer.css');
-@import url('../style/tabs.css');
 @import url('../style/contact-us.css');
-@import url('../style/media.css');
+@import url('../style/about-me.css');
+
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    list-style: none;
   }
 
   .container {
@@ -29,24 +24,6 @@
 
   html {
     font-family: "Open Sans", "Raleway", "Font Awesome 6 Free", sans-serif;
-  }
-
-  .title-red {
-    text-align: center;
-    font-size: 36px;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-family: 'Raleway';
-    color: #212121;
-  }
-
-  .title-red:after {
-    content: "";
-    background-color: #E72424;
-    width: 64px;
-    height: 2px;
-    display: block;
-    margin: 34px auto;
   }
 
   header {
@@ -63,37 +40,6 @@
 
   .fa-facebook:hover {
     color: rgb(66, 103, 178);
-  }
-
-  .fa-square-x-twitter {
-    transition: 1s;
-  }
-
-  .fa-square-x-twitter:hover {
-    color: rgb(29, 161, 242);
-  }
-
-  .fa-square-google-plus {
-    transition: 1s;
-  }
-
-  .fa-square-google-plus:hover {
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    background-image: conic-gradient( 
-      rgb(219, 68, 55) 25%,
-      rgb(66, 133, 244) 25% 50%, 
-      rgb(15, 157, 88) 50% 75%,
-      rgb(244, 180, 0) 75%);
-  }
-
-  .fa-square-pinterest {
-    transition: 1s;
-  }
-
-  .fa-square-pinterest:hover {
-    color: rgb(230, 0, 35);
   }
 
   .fa-square-instagram {
@@ -115,30 +61,6 @@
       rgb(247, 119, 55),
       rgb(252, 175, 69),
       rgb(255, 220, 128));
-  }
-
-  .fa-linkedin {
-    transition: 1s;
-  }
-
-  .fa-linkedin:hover {
-    color: rgb(0, 119, 181);
-  }
-
-  .fa-tiktok {
-    transition: 1s;
-  }
-
-  .fa-tiktok:hover {
-    color: #000;
-    text-shadow: -3px -3px #00f2ea, 
-                  3px 3px #ff0050;
-  }
-
-  .axit-footer .fa-tiktok:hover {
-    color: #fff;
-    text-shadow: -1.5px -1.5px rgba(0, 242, 234, 0.7), 
-                  1.5px 1.5px rgba(255, 0 ,80, 0.7);
   }
 
 

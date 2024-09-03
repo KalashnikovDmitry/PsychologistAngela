@@ -1,33 +1,39 @@
-const tabsBtn = document.querySelectorAll('.tab-btn');
-const tabsItems = document.querySelectorAll('.tabs-content-item')
+const me = document.getElementById('me').addEventListener('click', function() {
+    
+    const wrap = document.getElementById('meWrap');
+    const studyWrap = document.getElementById('studyWrap');
 
-tabsBtn.forEach(changeTab);
+    if (studyWrap.classList.contains('study-flex')) {
+        studyWrap.classList.remove('study-flex');
+    }
+
+    if(wrap.classList.contains('wrap-flex')){
+        wrap.classList.remove('wrap-flex')
+    } else {
+       wrap.classList.add('wrap-flex')
+    } 
+    
+})
+
+const study = document.getElementById('study').addEventListener('click', function() {
+    
+    const wrap = document.getElementById('studyWrap');
+    const meWrap = document.getElementById('meWrap');
+
+    if (meWrap.classList.contains('wrap-flex')) {
+        meWrap.classList.remove('wrap-flex');
+    }
+
+    if(wrap.classList.contains('study-flex')){
+        wrap.classList.remove('study-flex')
+    } else {
+       wrap.classList.add('study-flex')
+    } 
+
+})
 
 
 
 
-function changeTab(item) {
-    item.addEventListener('click', function() {
-        let currentBtn = item;
-        let tabId = currentBtn.getAttribute('data-tab')
-        let active_tab = document.querySelector(tabId);
-
-            if ( !currentBtn.classList.contains('tabs-active')) {
-                tabsBtn.forEach(function(item) {
-                    item.classList.remove('tabs-active');
-                });
-
-                tabsItems.forEach(function(item){
-                    item.classList.remove('tabs-active');
-                });
-
-                currentBtn.classList.add('tabs-active');
-                active_tab.classList.add('tabs-active');
-            }
-    });   
-}
-
-document.querySelector('.tab-btn').focus();
-document.querySelector('.tab-btn').click();
 
 
