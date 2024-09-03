@@ -1,0 +1,110 @@
+.customers {
+    background-color: #fff;
+    padding: 80px 0 120px;
+}
+
+.customers-header-wrap {
+    margin-bottom: 67px;
+}
+
+.header-text-customers p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B ;
+}
+
+.customer-card-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.customer-card {
+    width: 300px;
+    margin-right: 15px;
+}
+
+.customer-card:last-child {
+    margin-right: 0;
+}
+
+.description-customer-card {
+    position: relative;
+    background-color: rgba(226, 226, 226, 1);
+    text-align: center;
+    margin-bottom: 22px;
+    border: none;
+    border-radius: 7px;
+    transition: 1s;
+}
+
+.description-customer-card:hover {
+    transform: scale(1.05);
+    box-shadow: -5px -5px 5px 2px rgb(134, 135, 139, 0.5);
+}
+
+.description-customer-card p {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 9px 22px;
+    color: rgba(134, 135, 139, 1);
+}
+
+.description-customer-card:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 45px;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid rgba(226, 226, 226, 1);
+}
+
+.board-customer-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 20px;
+}
+
+.img-customer-card {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px 0 25px;
+}
+
+.img-customer-card img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.customer-name-card {
+    margin-right: 25px;
+}
+
+.customer-name-card p {
+    text-align: right;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(134, 135, 139, 1);
+}
+
+
+.customer-name {
+    text-align: right;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 8px 0 12px;
+    color: rgba(51, 51, 51, 1);
+}

@@ -1,0 +1,62 @@
+.axit-header {
+    background-color: black;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+}
+
+.axit-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+
+.logo p {
+    font-family: "Raleway";
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #FFFF;
+    line-height: 30px;
+}
+
+.logo p:after {
+    content: 'it';
+    color: #EC7979;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.menu-list-item {
+    transition: 0.5s;
+    margin: 0 48px 0 0;
+}
+
+.menu-list-item:last-child {
+    margin-right: 0;
+}
+
+.menu-list-item:hover {
+    transform: scale(1.2);
+}
+
+.menu-list-item a {
+    font-weight: 600;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    transition: 0.5s;
+}
+
+.menu-list-item a:hover {
+    color: #EC7979;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
