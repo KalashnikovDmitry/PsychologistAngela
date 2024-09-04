@@ -110,9 +110,10 @@
 
   .now-functional {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: auto;
   }
 
   .now-wrap p {
@@ -120,18 +121,4 @@
     font-weight: 600;
     color: #9e68e4;
     margin-bottom: 10px;
-  }
-
-  .now-wrap a {
-    margin: auto;
-    border: 1px solid #9e68e4;
-    border-radius: 15px;
-    width: 150px;
-    height: 25px;
-    transition: 0.3s;
-  }
-
-  .now-wrap a:hover {
-    transform: scale(1.2);
-    font-weight: bold;
   }
