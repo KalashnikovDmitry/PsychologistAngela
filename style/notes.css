@@ -124,3 +124,15 @@
 .contact-btn:hover {
     transform: scale(1.2);
 }
+
+.down {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;   
+}
+
+#downopen {
+    border: none !important; 
+    color: #9e68e4;
+}

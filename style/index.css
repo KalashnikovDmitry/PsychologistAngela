@@ -45,35 +45,6 @@
     text-indent: 20px;
   }
 
-  .fa-facebook {
-    transition: 1s;
-  }
-
-  .fa-facebook:hover {
-    color: rgb(66, 103, 178);
-  }
-
-  .fa-square-instagram {
-    transition: 1s;
-  }
-
-  .fa-square-instagram:hover {
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    background-image: linear-gradient(225deg, 
-      rgb(5, 10, 230), 
-      rgb(88, 81, 216),  
-      rgb(131, 58, 180), 
-      rgb(193, 53, 132),
-      rgb(225, 48, 108),
-      rgb(253, 36, 76),
-      rgb(245, 96, 64),
-      rgb(247, 119, 55),
-      rgb(252, 175, 69),
-      rgb(255, 220, 128));
-  }
-
 
 
 
